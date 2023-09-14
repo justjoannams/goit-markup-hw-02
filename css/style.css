@@ -1,0 +1,150 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.hero {
+  background-color: #2e2f42;
+  height: 600px;
+  width: 1440px;
+  color: #fff;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 1.12px;
+  text-align: center;
+}
+
+.hero > button {
+  color: #fff;
+  border-radius: 4px;
+  background-color: #4d5ae5;
+  box-shadow: 0px 4px 4px 0px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+}
+
+.about {
+  color: #434455;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+
+.what-are-we-doing {
+  color: #2e2f42;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
+.what-are-we-doing img {
+  width: 360px;
+  height: 360px;
+  border: 1px;
+  border-color: #e7e9fc;
+}
+
+.our-team {
+  background-color: #f4f4fd;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
+.our-team h3 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+}
+
+.our-team p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+
+.our-team img {
+  width: 264px;
+  height: 260px;
+}
+
+.filter-button-menu:hover {
+  text-align: center;
+}
+
+.filter-button-1,
+.filter-button-2,
+.filter-button-3,
+.filter-button-4,
+.filter-button-5 {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 24px;
+  color: #4d5ae5;
+  letter-spacing: 0.64px;
+  border-radius: 4px;
+  border: 1px;
+  border-color: #e7e9fc;
+  background: #f4f4fd;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.filter-button-1:hover {
+  background-color: #404bbf;
+  color: #f4f4fd;
+}
+
+img {
+  width: 500px;
+  height: 300px;
+  background-color: #fff;
+  border: 1px;
+  border-color: #e7e9fc;
+}
+
+.all-menu h3 {
+  font-size: 20px;
+  color: #2e2f42;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+}
+
+.all-menu p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+
+.footer {
+  background-color: #2e2f42;
+}
+
+.footer a {
+  font-family: "raleway", sans-serif;
+  font-size: 18px;
+  color: #4d5ae5;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+}
+
+.footer p {
+  color: #f4f4fd;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
