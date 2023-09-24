@@ -37,6 +37,15 @@ a {
   border-bottom: 1px solid var(--cornflower);
 }
 
+.nav-logo {
+  font-family: "raleway", sans-serif;
+  font-size: 18px;
+  color: var(--iris);
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+}
+
 .nav {
   color: var(--navyblue);
 }
@@ -76,7 +85,7 @@ a {
   text-align: center;
 }
 
-.hero > button {
+.hero-button {
   color: var(--white);
   border-radius: 4px;
   background-color: var(--iris);
@@ -87,7 +96,15 @@ a {
   letter-spacing: 0.64px;
 }
 
-.about {
+.features-list-item-title {
+  color: var(--navyblue);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+}
+
+.features-list-item-paragraph {
   color: var(--slate);
   font-size: 16px;
   font-weight: 400;
@@ -95,46 +112,50 @@ a {
   letter-spacing: 0.32px;
 }
 
-.what-are-we-doing {
+.what-are-we-doing-title {
   color: var(--navyblue);
   font-size: 36px;
   font-weight: 700;
   line-height: 40px;
   letter-spacing: 0.72px;
-  text-transform: capitalize;
 }
 
-.what-are-we-doing img {
+.what-are-we-doing-list-item-img {
   width: 360px;
   height: 360px;
-  border: 1px;
+  border: 1px solid var(--cornflower);
   border-color: var(--cornflower);
 }
 
 .our-team {
   background-color: var(--cloud);
+}
+
+.our-team-title {
+  color: var(--navyblue);
   font-size: 36px;
   font-weight: 700;
   line-height: 40px;
   letter-spacing: 0.72px;
-  text-transform: capitalize;
 }
 
-.our-team h3 {
+.our-team-item-list-title {
+  color: var(--navyblue);
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.4px;
 }
 
-.our-team p {
+.our-team-list-item-paragraph {
+  color: var(--slate);
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.32px;
 }
 
-.our-team img {
+.our-team-item-list-img {
   width: 264px;
   height: 260px;
 }
@@ -171,7 +192,7 @@ a {
   color: var(--cloud);
 }
 
-img {
+.all-menu-item-list-img {
   width: 500px;
   height: 300px;
   background-color: var(--white);
@@ -179,7 +200,7 @@ img {
   border-color: var(--cornflower);
 }
 
-.all-menu h3 {
+.all-menu-item-list-title {
   font-size: 20px;
   color: var(--navyblue);
   font-weight: 500;
@@ -187,7 +208,8 @@ img {
   letter-spacing: 0.4px;
 }
 
-.all-menu p {
+.all-menu-item-list-paragraph {
+  color: var(--slate);
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -198,7 +220,7 @@ img {
   background-color: var(--navyblue);
 }
 
-.footer a {
+.footer-logo {
   font-family: "raleway", sans-serif;
   font-size: 18px;
   color: var(--iris);
@@ -207,7 +229,7 @@ img {
   letter-spacing: 0.54px;
 }
 
-.footer p {
+.footer-paragraph {
   color: var(--cloud);
   font-size: 16px;
   font-weight: 400;
