@@ -40,10 +40,14 @@ a {
 .nav-logo {
   font-family: "raleway", sans-serif;
   font-size: 18px;
-  color: var(--iris);
+  color: var(--navyblue);
   font-weight: 800;
   line-height: 21px;
   letter-spacing: 0.54px;
+}
+
+.iris {
+  color: var(--iris);
 }
 
 .nav {
