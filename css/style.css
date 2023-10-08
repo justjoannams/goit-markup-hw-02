@@ -32,6 +32,11 @@ a {
   --dairy: #fcfcfc;
 }
 
+button {
+  border: unset;
+  font-family: inherit;
+}
+
 .header {
   background-color: var(--white);
   border-bottom: 1px solid var(--cornflower);
@@ -98,6 +103,12 @@ a {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.64px;
+  padding: 16px 32px;
+  cursor: pointer;
+}
+
+.hero-button:hover {
+  background-color: var(--ocean);
 }
 
 .features-list-item-title {
@@ -185,6 +196,8 @@ a {
   background: var(--cloud);
   transition-duration: 0.4s;
   cursor: pointer;
+  padding: 12px 24px;
+  border: 1px solid var(--cornflower);
 }
 
 .filter-button-1:hover,
@@ -194,6 +207,7 @@ a {
 .filter-button-5:hover {
   background-color: var(--ocean);
   color: var(--cloud);
+  border-color: var(--ocean);
 }
 
 .all-menu-item-list-img {
@@ -227,7 +241,7 @@ a {
 .footer-logo {
   font-family: "raleway", sans-serif;
   font-size: 18px;
-  color: var(--iris);
+  color: var(--white);
   font-weight: 800;
   line-height: 21px;
   letter-spacing: 0.54px;
